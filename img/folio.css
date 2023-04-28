@@ -1,0 +1,86 @@
+:root {
+    --background-color: beige;
+    --text-color: black;
+}
+
+svg{
+    height: 17px;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 3% 15%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+p{
+    line-height: 25px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+nav ul li {
+    margin-left: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+}
+nav ul li svg{
+    position: absolute;
+    top: 3px;
+    right: -22px;
+}
+header{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header-left{
+    flex: 6;
+    margin-right: 50px;
+}
+header .header-left small{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+header .header-left svg{
+    margin-right: 5px;
+}
+
+header .header-left h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+header .header-left links{
+    margin-top: 80px;
+}
+header .header-left a{
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+header .header-right{
+    flex: 5;
+}
+header .header-right img{
+    border-radius: 40%;
+}
+
+
+
